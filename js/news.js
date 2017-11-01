@@ -17,5 +17,21 @@ $(document).ready(function() {
 	$(".a11").mouseleave(function(){
 		$(".tupian11").hide();
 	});
+	window.onscroll = function(){
+		var distance = document.documentElement.scrollTop || document.body.scrollTop; //距离页面顶部的距离
+		if( distance >= 100 ) { //当距离顶部超过300px时，显示图片
+			document.getElementById('huidao_dingbu').style.display = "";
+		} 
+		else { //距离顶部小于300px，隐藏图片
+			document.getElementById('huidao_dingbu').style.display = "none";
+		}
+		var toTop = document.getElementById("huidao_dingbu"); //获取图片所在的div
+		toTop.onclick = function(){ //点击图片时触发的点击事件
+			document.documentElement.scrollTop = document.body.scrollTop = 0; //页面移动到顶部
+		}
+		}
 });
+
+
+
 
