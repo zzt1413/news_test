@@ -1,3 +1,3 @@
-# news_test
+
 建立了一个news网站
-https://zzt1413.github.io/news_test/news_shouye.html
+https://htmlpreview.github.io/?https://github.com/zzt1413/news_test/blob/master/news_shouye.html
