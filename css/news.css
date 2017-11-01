@@ -25,6 +25,7 @@
 	height: 49px;
 	line-height: 50px;
 	text-align: center;
+	color: red;
 }
 .denglv:hover {
 	background-color: rgba(20,130,230,0.6);
