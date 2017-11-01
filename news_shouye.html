@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>55</title>
-		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 		<link href="css/news.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		<div class="panel panel-default">
@@ -17,10 +17,10 @@
 			</div>
 			<div class="panel-body neirou">
 				<div class="leibie">
-					<div class="tuireshi">推荐</div>
-					<div class="tuireshi">热点</div>
-					<div class="tuireshi">视频</div>
-					<div class="jiahao">+分类</div>
+					<div class="tuireshi" role="button">推荐</div>
+					<div class="tuireshi" role="button">热点</div>
+					<div class="tuireshi" role="button">视频</div>
+					<div class="jiahao" role="button">+分类</div>
 				</div>
 				<div class="zhangkai_fenlei">
 					<ul>
@@ -42,7 +42,7 @@
 						<li>旅行</li>
 						<li>搞笑</li>
 						<li>家庭</li>
-						<li>热卖</li>
+						<li>娱乐</li>
 						<li>成长专栏</li>
 					</ul>
 				</div>
@@ -88,11 +88,217 @@
                         <li><a href="#" class="a10">更多&raquo;</a></li>
 					</ul>
 				</div>
+				<div class="news_tu">
+					<div id="huabu" class="container">
+						<div class="carousel slide" id="slidershow" data-ride="carousel" data-interval="4000">
+							<ol class="carousel-indicators">
+					  			<li class="active" data-target="#slidershow" data-slider-to = "0"></li>
+					  			<li data-target="#slidershow" data-slider-to = "1"></li>
+					  			<li data-target="#slidershow" data-slider-to = "2"></li>
+					  			<li data-target="#slidershow" data-slider-to = "3"></li>
+					  	</ol>
+					  	<div class="carousel-inner">
+					  		<div class="item active">
+					  			<a href="#"><img src="img/1106021.jpg" alt="" style="width: 100%;height: 350px;" /></a>
+					  		</div>
+				  			<div class="item">
+				  				<a href="#"><img src="img/1106020.jpg" alt="" style="width: 100%;height: 350px;" /></a>
+				  			</div>
+				  			<div class="item">
+				  				<a href="#"><img src="img/463007.jpg" alt="" style="width: 100%;height: 350px;" /></a>
+				  			</div>
+				  			<div class="item">
+				  				<a href="#"><img src="img/414672.jpg" alt="" style="width: 100%;height: 350px;" /></a>
+				  			</div>
+					  	</div>
+						</div>
+						<div class="news_bottom">
+							<a href="#slidershow" data-slide-to = "0" role="button">	
+								<div class="news_bt">大新闻</div>
+							</a>
+							<a href="#slidershow" data-slide-to = "1" role="button">
+					  			<div class="news_bt">国内大新闻</div>
+					  		</a>
+					  		<a href="#slidershow" data-slide-to = "2" role="button">
+							    <div class="news_bt">国外大新闻</div>
+							</a>
+							<a href="#slidershow" data-slide-to = "3" role="button">
+							    <div class="news_bt">惊天大新闻</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="sousuo">
+					<div class="input-group">
+				      <input type="text" class="form-control" placeholder="新闻搜索">
+				      <span id="sousuo_btn" class="input-group-btn sousuo_btn">
+				        <button class="btn btn-default btn-primary" type="button">搜索</button>
+				      </span>
+				    </div>
+				    <div class="news_xiao">
+				    	<div class="news_tupian tu_1"></div>
+				    	<span>领导不带秘书 会场不摆鲜花 点赞这些十九大简朴务实举措</span>
+				    </div>
+				    <div class="news_xiao">
+				    	<div class="news_tupian tu_2"></div>
+				    	<span>中国又一产业异军突起，逆袭韩国走向世界</span>
+				    </div>
+				    <div class="news_xiao">
+				    	<div class="news_tupian tu_3"></div>
+				    	<span>地震时他举牌“长大我当空降兵” 如今他成了黄继光班班长！</span>
+				    </div>
+				    <div class="news_xiao">
+				    	<div class="news_tupian tu_4"></div>
+				    	<span>十九大新闻中心举办第三场中外记者招待会</span>
+				    </div>
+				</div>
+				<div class="zhuti">
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>58岁六小龄童和西游记原班人马开拍新剧，网友：光剧照就把我看哭</span>
+							<div class="zhu_tu zhu_tu1"></div>
+							<div class="zhu_tu zhu_tu2"></div>
+							<div class="zhu_tu zhu_tu3"></div>
+							<div class="zhu_tu zhu_tu4"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">娱乐</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>洗洁精用完了千万不要扔！剪一刀太实用，小小空瓶竟也有大作用</span>
+						    <div class="zhu_tu zhu_tu7"></div>
+							<div class="zhu_tu zhu_tu8"></div>
+							<div class="zhu_tu zhu_tu9"></div>
+							<div class="zhu_tu zhu_tu10"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">生活</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>煮螃蟹是冷水下锅还是热水下锅？很多人第一步就错了，难怪不好吃</span>
+							<div class="zhu_tu zhu_tu11"></div>
+							<div class="zhu_tu zhu_tu12"></div>
+							<div class="zhu_tu zhu_tu13"></div>
+							<div class="zhu_tu zhu_tu14"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">美食</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>口臭严重？家里的一种常见的蔬菜，1天轻松解决口臭，永不复发！</span>
+							<div class="zhu_tu zhu_tu15"></div>
+							<div class="zhu_tu zhu_tu16"></div>
+							<div class="zhu_tu zhu_tu17"></div>
+							<div class="zhu_tu zhu_tu18"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">健康</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou_one">
+						<a href="#">
+							<div class="zhu_tutu zhu_tu5"></div>
+							<span>国乒终止世界杯8连冠！马龙惨败，回头却再也看不见刘国梁</span>
+						</a>
+						<div class="pinglun_one">
+							<div class="pinglun_k1">体育</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>高血压一定要忌口，这4种食物一定不能吃！吃完血压直飙160</span>
+							<div class="zhu_tu zhu_tu19"></div>
+							<div class="zhu_tu zhu_tu20"></div>
+							<div class="zhu_tu zhu_tu21"></div>
+							<div class="zhu_tu zhu_tu22"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">健康</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>越来越多人家里不铺瓷砖和木地板了，现在都流行铺它，好看又省钱</span>
+							<div class="zhu_tu zhu_tu23"></div>
+							<div class="zhu_tu zhu_tu24"></div>
+							<div class="zhu_tu zhu_tu25"></div>
+							<div class="zhu_tu zhu_tu26"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">推荐</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>马云的预言再次得到实现，这次只用了三十天，将会有很多人下岗</span>
+							<div class="zhu_tu zhu_tu27"></div>
+							<div class="zhu_tu zhu_tu28"></div>
+							<div class="zhu_tu zhu_tu29"></div>
+							<div class="zhu_tu zhu_tu30"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">国内</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou">
+						<a href="#">
+							<span>刷牙只要一个小方法，40年的黄牙口臭全部去光光，很多人都不知道</span>
+							<div class="zhu_tu zhu_tu31"></div>
+							<div class="zhu_tu zhu_tu32"></div>
+							<div class="zhu_tu zhu_tu33"></div>
+							<div class="zhu_tu zhu_tu34"></div>
+						</a>
+						<div class="pinglun">
+							<div class="pinglun_k1">国内</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div class="zhuti_neirou_one">
+						<a href="#">
+							<div class="zhu_tutu zhu_tu6"></div>
+						</a>
+						<a href="#">
+							<span>中国2米36巨人：56岁与娇妻闪婚，比岳父大3岁，不顾医生反对生子</span>
+						</a>
+						<div class="pinglun_one">
+							<div class="pinglun_k1">健康</div>
+							<div class="pinglun_k2"><b>500</b>评论</div>
+						    <div class="pinglun_k3">热度：<b>10000</b></div>
+						</div>
+					</div>
+					<div id="tianjia"></div>
+					<div class="loading"><a><p>点击加载更多...</p></a></div>
+				</div>
+				<div id="huidao_dingbu" class="glyphicon glyphicon-chevron-up fangda" role="button"></div>
 			</div>
-			<div class="panel-footer">Panel footer</div>
+			<div class="panel-footer">
+			</div>
 		</div>
-		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/news.js"></script>
 	</body>
 </html>
