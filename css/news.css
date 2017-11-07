@@ -87,6 +87,10 @@
 	float: left;
 	margin-top: -5px;
 	margin-left: 90px;
+	color: black;
+}
+.zhangkai_fenlei ul li:hover {
+	color: #8A6D3B;
 }
 .neirou-xiao {
 	width: 33.3%;
@@ -405,4 +409,37 @@
 }
 #huidao_dingbu:hover {
 	background-color: rgb(50,160,230);
+}
+#foot {
+	width: 70%;
+	height: 150px;
+	background-color: #31B0D5;
+}
+.QR {
+	margin-top: 10px;
+	width: 70px;
+	height: 70px;
+	background: url(../img/kekenews.png);
+}
+.saoma {
+	display: inline-block;
+	margin-left: 10px;
+}
+.gongzhong {
+	margin-left: 100px;
+	margin-top: 22px;
+	font-size: 20px;
+}
+.QR,.saoma,.gongzhong {
+	float: left;
+}
+#fanily {
+	margin-top: 10%;
+	width: 60%;
+	height: 50px;
+}
+#fanily ul li {
+	float: left;
+	padding-left: 10px;
+	list-style: none;
 }
